@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toufiq Shishir</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/8c982d9c85.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-slate-300 text-lg" style="font-family: 'Syne Mono', monospace;">
+    <main class="mx-5 bg-slate-200 min-h-screen">
+        <header>
+            <nav class="flex justify-between items-center w-[92%] mx-auto py-4">
+                <div>
+                    <a class="text-2xl font-bold" href="#">Toufiq S.</a>
+                </div>
+                <div
+                    class="bg-slate-200 nav-links duration-500 md:static absolute md:min-h-fit min-h-[20vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-4">
+                    <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                        <li>
+                            <a class="hover:text-gray-500" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-500" href="#">Timeline</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex items-center gap-6 md:hidden">
+                    <!-- <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">test btn</button> -->
+                    <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+                </div>
+        </header>
+        <div class="flex flex-col-reverse justify-center mx-[24px]">
+            <div class="">
+                <div class="text-lg text-center">
+                    <p class="text-4xl text-center py-4">Toufiq A. Shishir</p>
+                    <p><a href="https://github.com/toufiqahmedshr" target="_blank"><span class="underline hover:cursor-pointer hover:text-gray-500">Open source</span></a> contributor.</p>
+                    <p>Algorithmic <a href="#" target="_blank"><span class="underline hover:cursor-pointer hover:text-gray-500">problem solver</span></a>.</p>
+                    <p>Undergrad at <span class="underline hover:cursor-pointer hover:text-gray-500"><a href="https://www.aiub.edu/" target="_blank">American International University - Bangladesh</a></span></p>
+                    <p>and brokee!</p>
+                </div>
+                <div>
+                    <p class="text-xl text-center pt-4 pb-2">Connect with me,</p>
+                    <ul class="flex justify-center">
+                        <li class="text-[36px] pl-0 pr-4 hover:cursor-pointer hover:text-gray-500"><a href="mailto:md.toufiqahmedshr@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                        <li class="text-[36px] px-4 hover:cursor-pointer hover:text-gray-500"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="text-[36px] px-4 hover:cursor-pointer hover:text-gray-500"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li class="text-[36px] pl-4 pr-0 hover:cursor-pointer hover:text-gray-500"><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-center pt-12 pb-6">
+                <img class="rounded-full w-[240px] h-auto" src="./images/profile.jpg" alt="brand">
+            </div>
+        </div>
+        <div class="mx-[24px] py-4">
+            <p class="text-3xl font-bold underline text-center pt-12 pb-4">Research Interest</p>
+            <p class="text-lg text-justify">My primary research interest is building machines that can reason. I have chosen computer science as a starting point as I have been fascinated by computers from a young age and also I love mathematics which deals with reasoning, with the aim of creating an automated reasoning machine, that can solve complex mathematical/real life problems.</p>
+        </div>
+        <div class="mx-[24px] py-10">
+            <p class="text-3xl pt-12 pb-8 inline-block">> Timeline<span class="blink">_</span></p>
+            <table class="w-full">
+                <tbody>
+                    <tr>
+                        <td class="text-sm inline-block font-bold mr-[40px] whitespace-nowrap leading-[36px] py-2">16 Jul, 2023</td>
+                        <td class="py-2">
+                            <p class="leading-[28px]">Modified/Simplified <a href="https://cp-algorithms.com/num_methods/roots_newton.html" target="_blank"><p class="underline hover:text-gray-500">Newton's methode for finding roots</p></a> on cp-algorithms.com</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-sm inline-block font-bold mr-[40px] whitespace-nowrap leading-[36px] py-2">26 Oct, 2022</td>
+                        <td class="py-2">
+                            <p class="leading-[28px]">Fixed typos of <a href="https://cp-algorithms.com/num_methods/binary_search.html" target="_blank"><p class="underline hover:text-gray-500">binary_search.md</p></a> doc-string on cp-algorithms.com</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <p class="text-sm text-center py-4">2023・Toufiq Shishir・All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
