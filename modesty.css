@@ -5,8 +5,11 @@
     Modified by Toufiq Ahmed.
 */
 
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Syne+Mono&display=swap');
+
 body {
-    font-family:Helvetica, sans-serif;
+    font-family: 'IBM Plex Mono', 'Syne Mono', Helvetica, sans-serif;
     margin:auto;
     padding:15px;
     margin-top:-20px;
@@ -15,6 +18,11 @@ body {
     text-align:left;
     background-color:#F5F5F5;
     position:relative;
+}
+
+::selection {
+    background-color: black;
+    color: #F5F5F5;
 }
 
 sup {
@@ -28,6 +36,7 @@ sub {
 
 a {
     text-decoration:none;
+    color: black;
 }
 
 a.active {
@@ -58,6 +67,10 @@ h2 {
 h3, h4 {
     margin-top:1.4em;
     margin-bottom:0.25em;
+}
+
+div {
+    display: block;
 }
 
 hr {
@@ -99,6 +112,10 @@ blockquote p {
     display: inline;
 }
 
+footer {
+    padding-top: 15px;
+}
+
 .dense p {
     margin-top:0.2em;
     margin-bottom:0em;
@@ -122,6 +139,52 @@ blockquote p {
 
 .card {
     padding: 12px;
+}
+
+.terminal-card {
+    border: 1px solid #727578;
+    margin: 15px 0;
+}
+
+.terminal-card>header {
+    color: #F5F5F5;
+    text-align: center;
+    background-color: #727578;
+    padding: 0.5em 0;
+}
+
+.terminal-card p {
+    margin: auto;
+    padding: 10px;
+}
+
+.terminal-timeline {
+    position: relative;
+    padding-left: 70px;
+}
+
+.terminal-timeline::before {
+    content: ' ';
+    background: #727578;
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+.terminal-timeline .terminal-card::before {
+    content: ' ';
+    background: #F5F5F5;
+    border: 2px solid #727578;
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    left: 26px;
+    width: 15px;
+    height: 15px;
+    z-index: 400;
 }
 
 .headshot {
