@@ -2,6 +2,9 @@
 
 Welcome to my portfolio! This repository contains the source code and details about the projects I've worked on. 
 
+## TODO -
+- Write a static HTML page generator for parsing HTML from Markdown files
+
 ## Contact
 
 Feel free to reach out to me via email at [toufiq_a24@outlook.com] or connect with me on [LinkedIn](https://www.linkedin.com/in/toufiqahmedshr/) and [Twitter](https://twitter.com/toufiqstwt).

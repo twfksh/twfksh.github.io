@@ -8,4 +8,13 @@ document.addEventListener("DOMContentLoaded", function() {
             link.classList.add('active');
         }
     });
+
+    var resumeLink = document.querySelector('.resume-link');
+
+    resumeLink.addEventListener('click', event => {
+        if (resumeLink.getAttribute('href') === '#') {
+            event.preventDefault();
+            alert("Sorry, the resume is not available at the moment. Please check back later.");
+        }
+    });
 });

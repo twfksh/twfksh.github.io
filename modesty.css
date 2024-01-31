@@ -111,7 +111,7 @@ blockquote p {
 }
 
 footer {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .dense p {
@@ -151,6 +151,16 @@ footer {
     padding: 0.5em 0;
 }
 
+.terminal-card img {
+    margin: auto;
+    padding: 10px;
+}
+
+.terminal-card h3 {
+    margin: auto;
+    padding: 10px;
+}
+
 .terminal-card p {
     margin: auto;
     padding: 10px;
@@ -185,6 +195,16 @@ footer {
     z-index: 400;
 }
 
+.terminal-card:hover {
+    box-shadow: 4px 4px black;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-cards .terminal-card:hover {
+    transform: scale(1.02);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
 .headshot {
     width: 172px;
     height: 200px; 
@@ -214,6 +234,24 @@ footer {
 
 .links {
     margin-bottom: 1em;
+}
+
+.link:hover {
+    background: black;
+    color: #F5F5F5;
+}
+
+.resume-link::after {
+    content: '_';
+    display: inline-block;
+    opacity: 0;
+    animation: blink 1s infinite step-end;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
 }
 
 /* For mobile */
