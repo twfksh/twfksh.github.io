@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toufiq A. Shishir</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="I love learning stuffs related to programming and blog my adventures.">
+	<meta name="author" content="Toufiq A. Shishir, Toufiq Ahmed, Toufiq Ahmed Shishir">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Toufiq A. Shishir - Blog">
+	<meta property="og:description" content="I love learning stuffs related to programming [especially the low level stuffs] and blog my adventures.">
+	<meta property="og:image" content="images/profile.jpg">
+	<link rel="stylesheet" type="text/css" href="../modesty.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+</head>
+<body>
+	<div>
+		<h2># Menu</h2>
+	</div>
+
+	<hr />
+	<div style="text-align: center;">
+		<a class="link" href="../index.html">Home</a> |
+		<a class="link" href="../projects.html">Projects</a> |
+		<a class="link resume-link" href="#">View Resume</a> 
+	</div>
+	<hr />
+
+	<div>
+		<h2># Article</h2>
+		<hr />
+        <div style="text-align: justify;">
+            <h3>Resource Cleanup in C++ with A Defered Execution Statement</h3>
+            <br>
+            <p>I was first introduced to the concept of <b>defer</b> while playing with languages like <b>Go</b> and <b>Zig</b>. Wouldn't it be cool to implement something like this in <b>C/C++</b>?</p>
+            <p>While trying to learn about manual memory management, I landed on this amazing blog series called <a class="link" href="https://www.gingerbill.org/series/memory-allocation-strategies/"><i>"<u>Memory Allocation Strategies</u>"</i></a> by Ginger Bill. So while checking other blog article from the site I found the article <a class="link" href="https://www.gingerbill.org/article/2015/08/19/defer-in-cpp/"><i>"<u>A Defer Statement For C++11</u>"</i></a> where I found a C++ implementation for <b>defer</b>.</p>
+            <h4>C++ Implementation</h4>
+            <pre class="prettyprint lang-cplusplus">
+template &lt;typename F&gt;
+struct privDefer {
+    F f;
+    privDefer(F f) : f(f) {}
+    ~privDefer() { f(); }
+};
+
+template &lt;typename F&gt;
+privDefer&lt;F&gt; defer_func(F f) { return privDefer&lt;F&gt;(f); }
+
+#define DEFER_1(a, b) a##b
+#define DEFER_2(a, b) DEFER_1(a, b)
+#define DEFER_3(a)    DEFER_2(a, __COUNTER__)
+#define defer(code)   auto DEFER_3(_defer_) = defer_func([&](){code;})
+            </pre>
+            <h4>Explanation</h4>
+            <p>Simply put, you just wrap the function call with a lambda expression (C++11) and pass it as an agrument to the <b>defer_func</b>. This function returns an object of type <b>privDefer</b>, and as the scope ends the destructor calls the lambda expression that has been passed.</p>
+        </div>
+	</div>
+
+	<footer>
+        <h2># Epilogue</h2>
+		<hr />
+		<p>&copy; 2024 toufiq7r.github.io | All rights reserved.</p>
+	</footer>
+
+	<script src="index.js"></script>
+</body>
+</html>
