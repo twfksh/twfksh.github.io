@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     resumeLink.addEventListener('click', event => {
         if (resumeLink.getAttribute('href') === '#') {
             event.preventDefault();
-            alert("Sorry, the resume is not available at the moment. Please check back later.");
+            alert("Apologies, the resume is not available at the moment.");
         }
     });
 });
