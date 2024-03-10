@@ -5,13 +5,14 @@
 
 /* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 body {
-    font-family: 'IBM Plex Mono', 'Syne Mono', Helvetica, sans-serif;
+    font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Syne Mono', Helvetica, sans-serif;
     margin:auto;
     padding:15px;
     margin-top:-20px;
-    max-width:700px;
+    max-width:720px;
     font-size:16px;
     text-align:left;
     background-color:#F5F5F5;
