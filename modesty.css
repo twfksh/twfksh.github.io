@@ -44,7 +44,7 @@ a.active {
 
 li {
     margin:0.25em;
-    font-size:96%;
+    font-size:98%;
 }
 
 h1 {
@@ -247,6 +247,11 @@ footer {
     display: inline-block;
     opacity: 0;
     animation: blink 1s infinite step-end;
+}
+
+.article {
+    padding-right: 8px;
+    padding-left: 8px;
 }
 
 @keyframes blink {
