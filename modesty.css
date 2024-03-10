@@ -257,6 +257,11 @@ footer {
 
 /* For mobile */
 @media only screen and (max-width: 540px) {
+    body {
+        max-width: 520px;
+        font-size: 14px;
+    }
+
     .photo-container {
         margin-left: 0px;
     }
