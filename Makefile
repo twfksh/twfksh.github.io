@@ -14,7 +14,7 @@ format:
 
 lint:
 	ruff check .
-	yamllint portfolio.yml portfolio_example.yml .github/workflows/deploy.yml
+	yamllint portfolio.yml portfolio_example.yml .github/workflows/portfolio-ci.yml
 
 run_script:
 	python generate_portfolio.py
