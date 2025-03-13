@@ -23,29 +23,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install ruff
+          make install
 
-      - name: Check Python formatting with ruff
-        run: ruff format --check .
-
-      - name: Lint Python with ruff
-        run: ruff check .
-
-      - name: Run Python script
-        run: python generate_portfolio.py
-
-      - name: Install Prettier & Yamllint
+      - name: Format and lint Python, YAML, and other files
         run: |
-          npm install -g prettier
-          pip install yamllint
+          make format
+          make lint
 
-      - name: Format and Lint YAML files
-        run: yamllint portfolio.yml portfolio_example.yml .github/workflows/deploy.yml
-
-      - name: Format and Lint HTML, JS, and CSS files
-        run: prettier --check "**/*.{html,js,css}"
+      - name: Run Python Scripts
+        run: |
+          make run_script
 
   deploy:
     needs: build
