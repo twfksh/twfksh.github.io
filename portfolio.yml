@@ -1,154 +1,117 @@
 ---
-name: Your Name
-label: Optional Label
-image_path: img/default-image.png
+name: Toufiq A. Shishir
+label: Aspiring Software Engineer
+image_path: portfolio_media/profile.jpg
 contact:
-  email: FirstLast@Sample.com
-  phone: 123-456-7890
-  location: City, State, Country
-summary:
-  A short summary of who you are, your background, experience, and interests
-  to give visitors a quick introduction to you.
+  email: toufiqshishir@outlook.com
+  phone: (+880)-1929-686169
+  location: Dhaka 1229, BD
+summary: Aspiring Software Engineer with a passion for building scalable systems, writing clean code, and optimizing development workflows.
 base_url: 127.0.0.1:5500
 social_links:
-  - label: Personal Website
-    url: https://sample.com
+  - label: Blog
+    url: https://medium.com/@toufiqshishir
     svg_path: img/globe.svg
-  - label: First Social
-    url: https://sample.com
+  - label: Twitter
+    url: https://x.com/toufiqstwt
+    svg_path: img/twitter.svg
+  - label: Linkedin
+    url: https://linkedin.com/in/toufiqahmedshr
     svg_path: img/linkedin.svg
-  - label: Second Social
-    url: https://sample.com
+  - label: Instagram
+    url: https://instagram.com/toufiqshishir
+    svg_path: img/instagram.svg
+  - label: GitHub
+    url: https://github.com/twfksh
     svg_path: img/github.svg
 work_experience:
-  - company: Latest Job
-    position: Position One
-    url: https://sample.com
-    start_date: 01/01/2020
+  - company: "Learn-A-Thon3.0 by Geeky Solutions"
+    position: Team Lead for the ArcaneBytes Team
+    url: https://learnathon.geeky.solutions/
+    start_date: 01/01/2025
     end_date: Present
-    summary: Short summary about present job and what the position entails
+    summary: Worked on a self-improvement project named 'Kaizen' with a team of 3 members.
     highlights:
-      - First Duty of Current Job
-      - Second Duty of Current Job
-      - Third Duty of Current Job
-  - company: Previous Job
-    position: Position Two
-    url: https://sample.com
-    start_date: 01/01/2010
-    end_date: 01/01/2020
-    summary: Short summary about previous job and what that position entailed
-    highlights:
-      - First Duty of Previous Job
-      - Second Duty of Previous Job
-      - Third Duty of Previous Job
+      - Maintained the project's DevOps & CI/CD pipeline using GitHub Actions.
+      - Developed the project's backend using Django REST Framework and PostgreSQL database.
+      - Maiuntained the project's codebase and documentation.
 projects:
-  - title: My First Project
-    summary: Short summary about my first project
-    url: https://sample.com
+  - title: "no-player-game: Conway's Game of Life in C"
+    summary: A simulation of Conway's Game of Life built using C and Raylib, showcasing cellular automaton.
+    url: https://github.com/twfksh/no-player-game.git
     highlights:
-      - First Highlight of Project One
-      - Second Highlight of Project One
-      - Third Highlight of Project One
-    images:
-      - img_path: https://picsum.photos/600/338?random=1
-        caption: Image Caption 1
-      - img_path: https://picsum.photos/600/338?random=2
-        caption: Image Caption 2
-      - img_path: https://picsum.photos/600/338?random=3
-        caption: Image Caption 3
-  - title: My Second Project
-    summary: Short summary about my second project
-    url: https://sample.com
+      - Used Raylib to render the simulation with a minimalist graphical output.
+      - Designed a straightforward, self-running simulation without user interaction.
+      - Maintained a clean and modular codebase for easy readability and modification.
+      - Explored foundational concepts of cellular automata and graphics programming.
+  - title: "shuffle: A local media shuffling tool."
+    summary: A lightweight CLI tool for shuffling and playing local media files efficiently.
+    url: https://github.com/twfksh/shuffle.git
     highlights:
-      - First Highlight of Project Two
-      - Second Highlight of Project Two
-      - Third Highlight of Project Two
-    images:
-      - img_path: https://picsum.photos/600/338?random=4
-        caption: Image Caption 4
-      - img_path: https://picsum.photos/600/338?random=5
-        caption: Image Caption 5
-      - img_path: https://picsum.photos/600/338?random=6
-        caption: Image Caption 6
+      - Randomly shuffles and plays media files from a specified directory.
+      - Supports various media formats and customizable playback options.
+  - title: "base64: A Text Encryption & Decryption System written in Zig."
+    summary: A lightweight and efficient Base64 encoding and decoding system written in Zig.
+    url: https://github.com/twfksh/base64.git
+    highlights:
+      - Implements Base64 transformation with optimized performance.
+      - Leverages Zig’s powerful memory management and safety features.
 volunteer_experience:
-  - organization: Latest Organization
-    position: Position One
-    url: https://sample.com
-    start_date: 01/01/2020
-    end_date: Present
-    summary: Short summary about present volunteer work
+  - organization: Onneshon Foundation
+    position: Assistant Secretary
+    url: https://instagram.com/onneshon_foundation_
+    start_date: May, 2020
+    end_date: Aug, 2021
+    summary: Worked on several local projects helping the underprivileged community.
     highlights:
-      - First Duty of Current Organization
-      - Second Duty of Current Organization
-      - Third Duty of Current Organization
-  - organization: Previous Organization
-    position: Position Two
-    url: https://sample.com
-    start_date: 01/01/2010
-    end_date: 01/01/2020
-    summary: Short summary about previous volunteer work
-    highlights:
-      - First Duty of Previous Organization
-      - Second Duty of Previous Organization
-      - Third Duty of Previous Organization
+      - Organized a charity event for the underprivileged community during Eid-ul-Fitr 2020.
+      - Organized a tree plantation event in the local community as SDG 13 initiative.
 education:
-  - institution: Institution One
-    location: Institution One Location
-    url: https://sample.com
+  - institution: American International University-Bangladesh
+    location: 408/1 (Old KA 66/1), Kuratoli, Khilkhet, Dhaka 1229, Bangladesh
+    url: https://www.aiub.edu/
     degrees:
-      - Master of Science in Computer Science
-      - Minor in Mathematics
+      - Bachelor of Science in Computer Science and Engineering
+      - Major in Software Engineering
+      - Minor in Information Systems
     honors:
-      - Outstanding Student Award
+      - Academic Scholarship Recipient
       - Dean's List
-    gpa_cumulative: "3.5"
-    gpa_major: "4.0"
-    graduation_date: 01/01/2005
-  - institution: Institution Two
-    location: Institution Two Location
-    url: https://sample.com
-    degrees:
-      - Bachelor of Science in Physics
-    honors:
-      - Scholarship Recipient
-    gpa_cumulative: "3.2"
-    gpa_major: "3.9"
-    graduation_date: 01/01/2000
+    gpa_cumulative: "3.89"
+    gpa_major: "3.95"
+    graduation_date: 30/09/2025
 skills:
-  - name: My First Skill
-    proficiency: 100
+  - name: Python, Django, FastAPI
+    proficiency: 90
     proficiency_label: Proficiency Level
-  - name: My Second Skill
+  - name: Linux & Docker Containers
     proficiency: 80
     proficiency_label: Proficiency Level
+  - name: System Design
+    proficiency: 70
+    proficiency_label: Proficiency Level
 interests:
-  - name: My First Hobby
-    summary: Short summary about my first Hobby
+  - name: Reading Books & Writing Blogs
+    summary: I love reading books and writing blogs on various topics like technology, philosophy, and self-improvement in spare time.
     images:
-      - img_path: https://picsum.photos/600/338?random=7
-        caption: Image Caption 7
-      - img_path: https://picsum.photos/600/338?random=8
-        caption: Image Caption 8
-  - name: My Second Hobby
-    summary: Short summary about my second hobby
+  - name: Mobile Photography
+    summary: I love capturing moments with my smartphone and sharing them on social media.
     images:
-      - img_path: https://picsum.photos/600/338?random=9
-        caption: Image Caption 9
-      - img_path: https://picsum.photos/600/338?random=10
-        caption: Image Caption 10
 languages:
-  - language: English
+  - language: Bangla
     fluency: Native speaker
+  - language: English
+    fluency: Non-native speaker
   - language: American Sign Language
-    fluency: Professional Working Proficiency
-references:
-  - name: Person One
-    relation: Previous Boss
-    reference:
-      Some nice things that Person One said about you, your work ethic, and
-      how you provided value to their team.
-  - name: Person Two
-    relation: Previous Coworker
-    reference:
-      More kind things that Person Two said about you, what it was like working
-      with you, and things you've accomplished.
+    fluency: Beginner
+# references:
+#   - name: Person One
+#     relation: Previous Boss
+#     reference:
+#       Some nice things that Person One said about you, your work ethic, and
+#       how you provided value to their team.
+#   - name: Person Two
+#     relation: Previous Coworker
+#     reference:
+#       More kind things that Person Two said about you, what it was like working
+#       with you, and things you've accomplished.
