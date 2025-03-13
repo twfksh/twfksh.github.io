@@ -10,7 +10,7 @@ install:
 
 format:
 	ruff format --check .
-	prettier --check "**/*.{html,js,css}"
+	prettier --write "**/*.{html,js,css}"
 
 lint:
 	ruff check .
