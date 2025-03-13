@@ -5,71 +5,94 @@ image_path: portfolio_media/profile.jpg
 contact:
   email: toufiqshishir@outlook.com
   phone: (+880)-1929-686169
-  location: Dhaka 1229, BD
-summary: Aspiring Software Engineer with a passion for building scalable systems, writing clean code, and optimizing development workflows.
-base_url: 127.0.0.1:5500
+  location: 'Dhaka 1229, BD'
+summary: |
+  Aspiring Software Engineer with a passion for building scalable systems,
+  writing clean code, and optimizing development workflows.
+base_url: '127.0.0.1:5500'
 social_links:
   - label: Blog
-    url: https://medium.com/@toufiqshishir
+    url: 'https://medium.com/@toufiqshishir'
     svg_path: img/globe.svg
   - label: Twitter
-    url: https://x.com/toufiqstwt
+    url: 'https://x.com/toufiqstwt'
     svg_path: img/twitter.svg
   - label: Linkedin
-    url: https://linkedin.com/in/toufiqahmedshr
+    url: 'https://linkedin.com/in/toufiqahmedshr'
     svg_path: img/linkedin.svg
   - label: Instagram
-    url: https://instagram.com/toufiqshishir
+    url: 'https://instagram.com/toufiqshishir'
     svg_path: img/instagram.svg
   - label: GitHub
-    url: https://github.com/twfksh
+    url: 'https://github.com/twfksh'
     svg_path: img/github.svg
 work_experience:
-  - company: "Learn-A-Thon3.0 by Geeky Solutions"
+  - company: Learn-A-Thon3.0 by Geeky Solutions
     position: Team Lead for the ArcaneBytes Team
-    url: https://learnathon.geeky.solutions/
+    url: 'https://learnathon.geeky.solutions/'
     start_date: 01/01/2025
     end_date: Present
-    summary: Worked on a self-improvement project named 'Kaizen' with a team of 3 members.
+    summary: >
+      Worked on a self-improvement project named 'Kaizen' with a team of 3
+      members.
     highlights:
       - Maintained the project's DevOps & CI/CD pipeline using GitHub Actions.
-      - Developed the project's backend using Django REST Framework and PostgreSQL database.
+      - >-
+        Developed the project's backend using Django REST Framework and
+        PostgreSQL database.
       - Maiuntained the project's codebase and documentation.
 projects:
   - title: "no-player-game: Conway's Game of Life in C"
-    summary: A simulation of Conway's Game of Life built using C and Raylib, showcasing cellular automaton.
-    url: https://github.com/twfksh/no-player-game.git
+    summary: >
+      A simulation of Conway's Game of Life built using C and Raylib, showcasing
+      cellular automaton.
+    url: 'https://github.com/twfksh/no-player-game.git'
     highlights:
       - Used Raylib to render the simulation with a minimalist graphical output.
-      - Designed a straightforward, self-running simulation without user interaction.
-      - Maintained a clean and modular codebase for easy readability and modification.
-      - Explored foundational concepts of cellular automata and graphics programming.
-  - title: "shuffle: A local media shuffling tool."
-    summary: A lightweight CLI tool for shuffling and playing local media files efficiently.
-    url: https://github.com/twfksh/shuffle.git
+      - >-
+        Designed a straightforward, self-running simulation without user
+        interaction.
+      - >-
+        Maintained a clean and modular codebase for easy readability and
+        modification.
+      - >-
+        Explored foundational concepts of cellular automata and graphics
+        programming.
+  - title: 'shuffle: A local media shuffling tool.'
+    summary: >
+      A lightweight CLI tool for shuffling and playing local media files
+      efficiently.
+    url: 'https://github.com/twfksh/shuffle.git'
     highlights:
       - Randomly shuffles and plays media files from a specified directory.
       - Supports various media formats and customizable playback options.
-  - title: "base64: A Text Encryption & Decryption System written in Zig."
-    summary: A lightweight and efficient Base64 encoding and decoding system written in Zig.
-    url: https://github.com/twfksh/base64.git
+  - title: 'base64: A Text Encryption & Decryption System written in Zig.'
+    summary: >
+      A lightweight and efficient Base64 encoding and decoding system written in
+      Zig.
+    url: 'https://github.com/twfksh/base64.git'
     highlights:
       - Implements Base64 transformation with optimized performance.
       - Leverages Zig’s powerful memory management and safety features.
 volunteer_experience:
   - organization: Onneshon Foundation
     position: Assistant Secretary
-    url: https://instagram.com/onneshon_foundation_
-    start_date: May, 2020
-    end_date: Aug, 2021
-    summary: Worked on several local projects helping the underprivileged community.
+    url: 'https://instagram.com/onneshon_foundation_'
+    start_date: 'May, 2020'
+    end_date: 'Aug, 2021'
+    summary: |
+      Worked on several local projects helping the underprivileged community.
     highlights:
-      - Organized a charity event for the underprivileged community during Eid-ul-Fitr 2020.
-      - Organized a tree plantation event in the local community as SDG 13 initiative.
+      - >-
+        Organized a charity event for the underprivileged community during
+        Eid-ul-Fitr 2020.
+      - >-
+        Organized a tree plantation event in the local community as SDG 13
+        initiative.
 education:
   - institution: American International University-Bangladesh
-    location: 408/1 (Old KA 66/1), Kuratoli, Khilkhet, Dhaka 1229, Bangladesh
-    url: https://www.aiub.edu/
+    location: '408/1 (Old KA 66/1), Kuratoli, Khilkhet, Dhaka 1229, Bangladesh'
+    url: 'https://www.aiub.edu/'
     degrees:
       - Bachelor of Science in Computer Science and Engineering
       - Major in Software Engineering
@@ -77,11 +100,11 @@ education:
     honors:
       - Academic Scholarship Recipient
       - Dean's List
-    gpa_cumulative: "3.89"
-    gpa_major: "3.95"
+    gpa_cumulative: '3.89'
+    gpa_major: '3.95'
     graduation_date: 30/09/2025
 skills:
-  - name: Python, Django, FastAPI
+  - name: 'Python, Django, FastAPI'
     proficiency: 90
     proficiency_label: Proficiency Level
   - name: Linux & Docker Containers
@@ -92,11 +115,15 @@ skills:
     proficiency_label: Proficiency Level
 interests:
   - name: Reading Books & Writing Blogs
-    summary: I love reading books and writing blogs on various topics like technology, philosophy, and self-improvement in spare time.
-    images:
+    summary: |
+      I love reading books and writing blogs on various topics like technology,
+      philosophy, and self-improvement in spare time.
+    images: null
   - name: Mobile Photography
-    summary: I love capturing moments with my smartphone and sharing them on social media.
-    images:
+    summary: >
+      I love capturing moments with my smartphone and sharing them on social
+      media.
+    images: null
 languages:
   - language: Bangla
     fluency: Native speaker
@@ -104,14 +131,3 @@ languages:
     fluency: Non-native speaker
   - language: American Sign Language
     fluency: Beginner
-# references:
-#   - name: Person One
-#     relation: Previous Boss
-#     reference:
-#       Some nice things that Person One said about you, your work ethic, and
-#       how you provided value to their team.
-#   - name: Person Two
-#     relation: Previous Coworker
-#     reference:
-#       More kind things that Person Two said about you, what it was like working
-#       with you, and things you've accomplished.
