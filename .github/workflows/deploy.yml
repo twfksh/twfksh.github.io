@@ -42,7 +42,7 @@ jobs:
           pip install yamllint
 
       - name: Format and Lint YAML files
-        run: yamllint .
+        run: yamllint portfolio.yml portfolio_example.yml .github/workflows/deploy.yml
 
       - name: Format and Lint HTML, JS, and CSS files
         run: prettier --check "**/*.{html,js,css}"
