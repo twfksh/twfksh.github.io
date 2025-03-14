@@ -127,13 +127,13 @@ education:
     graduation_date: 30/09/2025
 skills:
   - name: 'Python, Django, FastAPI'
-    proficiency: 90
+    proficiency: 70
     proficiency_label: Proficiency Level
   - name: Linux & Docker Containers
-    proficiency: 80
+    proficiency: 60
     proficiency_label: Proficiency Level
   - name: System Design
-    proficiency: 70
+    proficiency: 60
     proficiency_label: Proficiency Level
 interests:
   - name: Reading Books & Writing Blogs
