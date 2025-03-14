@@ -74,6 +74,28 @@ projects:
     highlights:
       - Implements Base64 transformation with optimized performance.
       - Leverages Zig’s powerful memory management and safety features.
+  - title: 'deep-leaf-convnet: A Convolutional Network Model for Plant Disease Diagnosis'
+    summary: >
+      A deep learning model utilizing a convolutional neural network (CNN) for 
+      the classification of plant diseases based on image data.
+    url: 'https://github.com/twfksh/deep-leaf-convnet.git'
+    highlights:
+      - >-
+        Developed a CNN-based model to accurately classify various plant 
+        diseases from images.
+      - >-
+        Utilized PyTorch for building, training, and evaluating the model, 
+        with performance metrics including precision, recall, and F1-score.
+      - >-
+        Preprocessed and augmented a large dataset of plant images, 
+        ensuring optimized inputs for model training.
+    images:
+      - img_path: portfolio_media/projects/deep_leaf_dataset_summary.png
+        caption: 'Dataset Summary'
+      - img_path: portfolio_media/projects/deep_leaf_convnet_model_summary.png
+        caption: 'Model Summary'
+      - img_path: portfolio_media/projects/deep_leaf_convnet_results.png
+        caption: 'Model Results'
 volunteer_experience:
   - organization: Onneshon Foundation
     position: Assistant Secretary
