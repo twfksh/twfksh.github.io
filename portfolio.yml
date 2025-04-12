@@ -26,21 +26,21 @@ social_links:
   - label: GitHub
     url: 'https://github.com/twfksh'
     svg_path: img/github.svg
-work_experience:
-  - company: Learn-A-Thon3.0 by Geeky Solutions
-    position: Team Lead for the ArcaneBytes Team
-    url: 'https://learnathon.geeky.solutions/'
-    start_date: 01/01/2025
-    end_date: Present
-    summary: >
-      Worked on a self-improvement project named 'Kaizen' with a team of 3
-      members.
-    highlights:
-      - Maintained the project's DevOps & CI/CD pipeline using GitHub Actions.
-      - >-
-        Developed the project's backend using Django REST Framework and
-        PostgreSQL database.
-      - Maiuntained the project's codebase and documentation.
+# work_experience:
+#   - company: Learn-A-Thon3.0 by Geeky Solutions
+#     position: Team Lead for the ArcaneBytes Team
+#     url: 'https://learnathon.geeky.solutions/'
+#     start_date: 01/01/2025
+#     end_date: Present
+#     summary: >
+#       Worked on a self-improvement project named 'Kaizen' with a team of 3
+#       members.
+#     highlights:
+#       - Maintained the project's DevOps & CI/CD pipeline using GitHub Actions.
+#       - >-
+#         Developed the project's backend using Django REST Framework and
+#         PostgreSQL database.
+#       - Maiuntained the project's codebase and documentation.
 projects:
   - title: "no-player-game: Conway's Game of Life in C"
     summary: >
