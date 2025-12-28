@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head id="head">
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1">
+		<title :text="$site.title"></title>
+		<link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
+		<link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
+		<!-- mathtex -->
+		<link type="text/css" rel="stylesheet" href="$site.asset('Temml-Local.css').link()">
+		<script defer src="$site.asset('temml.min.js').link()"></script>
+		<script defer src="$site.asset('render-mathtex.js').link()"></script>
+		<!-- /mathtex -->
+		<super>
+		<style>
+			.navbar {
+				display: flex;
+				justify-content: center;
+				overflow: hidden;
+				padding: 14px 16px;
+			}
+
+			.navbar a {
+				color: white;
+				text-decoration: none;
+				padding: 0 10px; /* Add spacing between links */
+			}
+
+			.navbar a:hover {
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body id="body">
+		<nav class="navbar">
+		    <a href="/">home</a>
+			&nbsp; • &nbsp;
+		    <a href="$site.page('articles').link()">articles</a>
+		</nav>
+		<super>
+	</body>
+</html>

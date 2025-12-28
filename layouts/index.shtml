@@ -1,0 +1,23 @@
+<extend template="base.shtml">
+<head id="head">
+	<style>
+		a {
+			text-decoration: none;
+		}
+		
+		a:hover {
+			text-decoration: underline;
+		}
+		
+		.date {
+			font-size: 0.9em;
+		}
+		
+		.title h3{
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body id="body">
+	<div :html="$page.content()"></div>
+</body>
