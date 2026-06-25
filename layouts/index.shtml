@@ -6,7 +6,7 @@
 	<main>
 		<div class="profile-header">
 			<h1>Toufiq Shishir</h1>
-			<p class="profile-subtitle">// DevOps Engineer L1 @ <a href="https://ait.inc/" target="_blank" rel="noopener">AsthaIT</a> &middot; <a href="https://github.com/twkfsh" target="_blank" rel="noopener">GitHub</a> &middot; <a href="https://codeberg.org/twkfsh" target="_blank" rel="noopener">Codeberg</a></p>
+			<p class="profile-subtitle">// DevOps Engineer L1 @ <a href="https://ait.inc/" target="_blank" rel="noopener">AsthaIT</a> &middot; <a href="https://github.com/twfksh" target="_blank" rel="noopener">GitHub</a> &middot; <a href="https://codeberg.org/twfksh" target="_blank" rel="noopener">Codeberg</a></p>
 		</div>
 		<div class="profile-content" :html="$page.content()"></div>
 	</main>
