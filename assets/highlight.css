@@ -10,11 +10,53 @@
 }
 
 pre {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
   padding: 10px 5px;
 }
 
+/* General syntax highlighting */
+.keyword,
+.keyword_function,
+.keyword_exception {
+  color: var(--magenta);
+}
+
+.type,
+.type_builtin,
+.constant {
+  color: var(--light-yellow);
+}
+
+.string {
+  color: var(--dark-yellow);
+}
+
+.comment,
+.comment_documentation {
+  color: var(--comment-gray);
+  font-style: italic;
+}
+
+.function,
+.function_call {
+  color: var(--blue);
+}
+
+.operator {
+  color: var(--cyan);
+}
+
+.punctuation_bracket,
+.punctuation_delimiter {
+  color: var(--text-secondary);
+}
+
+.variable,
+.variable_builtin,
+.variable_parameter {
+  color: var(--light-red);
+}
+
+/* Ziggy-specific overrides */
 code.ziggy {
   color: var(--cyan);
 }

@@ -1,42 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head id="head">
 		<meta charset="utf-8">
-		<meta name="viewport" content="initial-scale=1">
-		<title :text="$site.title"></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#fafafa">
+		<meta name="color-scheme" content="light dark">
+		<meta name="description" content="$page.description">
+		<title :text="$page.title"></title>
 		<link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
 		<link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
 		<!-- mathtex -->
 		<link type="text/css" rel="stylesheet" href="$site.asset('Temml-Local.css').link()">
 		<script defer src="$site.asset('temml.min.js').link()"></script>
 		<script defer src="$site.asset('render-mathtex.js').link()"></script>
+		<script defer src="$site.asset('events-handler.js').link()"></script>
 		<!-- /mathtex -->
 		<super>
-		<style>
-			.navbar {
-				display: flex;
-				justify-content: center;
-				overflow: hidden;
-				padding: 14px 16px;
-			}
-
-			.navbar a {
-				color: white;
-				text-decoration: none;
-				padding: 0 10px; /* Add spacing between links */
-			}
-
-			.navbar a:hover {
-				text-decoration: underline;
-			}
-		</style>
 	</head>
 	<body id="body">
-		<nav class="navbar">
-		    <a href="/">home</a>
-			&nbsp; • &nbsp;
-		    <a href="$site.page('articles').link()">articles</a>
-		</nav>
+		<header>
+			<div class="header-inner">
+				<nav class="main-nav">
+					<a href="/" class="nav-link">home</a>
+					<a href="/about/">about</a>
+					<a href="/devlog/" class="nav-link">devlog</a>
+					<a href="/index.xml" class="nav-link rss-link" target="_blank" rel="noopener">rss</a>
+				</nav>
+			</div>
+		</header>
 		<super>
+		<footer>
+			<p>&copy; Toufiq Shishir</p>
+		</footer>
 	</body>
 </html>

@@ -1,0 +1,8 @@
+---
+.title = "Devlog",
+.description = "Devlog from Toufiq Shishir",
+.date = @date("2025-12-28T09:58:00"),
+.author = "Toufiq Shishir",
+.layout = "devlog.shtml",
+.draft = false,
+---

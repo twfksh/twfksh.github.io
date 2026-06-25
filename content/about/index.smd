@@ -1,0 +1,12 @@
+---
+.title = "Toufiq Shishir",
+.description = "Personal site of Toufiq Shishir — DevOps Engineer @ AsthaIT",
+.date = @date("2024-06-01T00:00:00"),
+.author = "Toufiq Shishir",
+.layout = "index.shtml",
+.draft = false,
+---
+
+The computing scientist's main challenge is not to get confused by the complexities of his own making.
+
+-- Edsger W. Dijkstra

@@ -1,8 +1,8 @@
 <extend template="base.shtml">
 <head id="head">
+	<style>.main-nav a[href="/"] { color: var(--accent); }</style>
 </head>
 <body id="body">
 	<main>
-		<div :html="$page.content()"></div>
 	</main>
 </body>

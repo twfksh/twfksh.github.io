@@ -1,0 +1,16 @@
+<extend template="base.shtml">
+<head id="head">
+	<style>.main-nav a[href="/devlog/"] { color: var(--accent); }</style>
+</head>
+<body id="body">
+	<main>
+		<h1>Devlog</h1>
+		<div class="devlog-list">
+			<div class="devlog-entry" :loop="$site.page('devlog').subpages()">
+				<div class="entry-date" :text="$loop.it.date.format('Jan 02, 2006')"></div>
+				<div class="entry-title" :text="$loop.it.title"></div>
+				<div class="entry-content" :html="$loop.it.content()"></div>
+			</div>
+		</div>
+	</main>
+</body>

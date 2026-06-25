@@ -1,11 +1,13 @@
 ---
-.title = "Toufiq Shishir",
+.title = "Articles",
+.description = "All articles on Toufiq Shishir's personal site",
 .date = @date("2025-12-28T09:58:00"),
 .author = "Toufiq Shishir",
-.layout = "index.shtml",
+.layout = "articles.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "articles.xml",
+    .output = "index.xml",
+}],
 .draft = false,
 ---
-
-The computing scientist's main challenge is not to get confused by the complexities of his own making.
-
--- Edsger W. Dijkstra
